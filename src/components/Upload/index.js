@@ -46,7 +46,7 @@ const Upload = ({
       setDragging(true);
     }
   };
-  const handleDragLeave = () => {
+  const handleDragLeave = (e) => {
     if (!droppable) {
       return;
     }
